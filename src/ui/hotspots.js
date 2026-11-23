@@ -77,7 +77,7 @@ export function createHotspots({ camera, model, items }) {
     let ax = x + off.x;
     let ay = y + off.y;
     // Geniş ekranda sağ kenardaki bölüm göstergesine yer bırak
-    const rightPad = vw >= 1024 ? 170 : pad;
+    const rightPad = vw >= 1024 ? 230 : pad;
     ax = right ? Math.min(ax, vw - rightPad - lw) : Math.max(ax, pad + lw);
     ay = Math.min(Math.max(ay, pad + 72 + lh / 2), vh - pad - lh / 2);
     const dx = ax - x;
