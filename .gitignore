@@ -1,0 +1,4 @@
+node_modules
+dist
+# 88 MB orijinal model — yerelde saklanır, repoya girmez
+assets-src/*.glb
