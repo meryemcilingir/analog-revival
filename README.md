@@ -1,5 +1,7 @@
 # Analog Revival
 
+**Live:** https://analog-revival.vercel.app
+
 A cinematic, scroll-driven 3D product page for a fictional reissue of a 1970s studio headphone.
 Concept project, not a real product.
 
@@ -29,8 +31,8 @@ Brand name and author live in `src/config.js`. Anatomy points are in `src/scene/
 
 ## Deploy
 
-`dist/` is a static site and can be hosted on Netlify, Vercel, GitHub Pages or similar.
-After deploying, update `og:image` in `index.html` to an absolute URL so link previews work everywhere.
+Deployed on Vercel and connected to this repo, so every push to `main` deploys automatically.
+If you move to another host or domain, update `og:url` and `og:image` in `index.html`.
 
 ## Credits
 
